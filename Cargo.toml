@@ -1,0 +1,9 @@
+[package]
+name = "test_keygen"
+version = "0.1.0"
+authors = ["ilja"]
+
+[dependencies]
+
+openssl = { version = "0.10", features = ["vendored"] }
+hex = { version = "0.3.2" }
